@@ -1,1 +1,31 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/aspect-ratio";
+
+@theme {
+  /* Fuentes */
+  --font-potta-one: "Potta One", sans-serif;
+  --font-nunito: "Nunito", sans-serif;
+
+  /* Colores */
+  --color-primary: #c1272d;
+  --color-secondary: #f5f0e8;
+  --color-tertiary: #1a1a2e;
+
+  /* Imágenes de fondo */
+  --bg-image-yokai-matsuri: url("/img/yokai-matsuri.jpg");
+  --bg-image-shibuya: url("/img/shibuya.jpg");
+  --bg-image-robot-restaurant-tokyo: url("/img/robot-restaurant-tokyo.jpg");
+  --bg-image-okunoshima: url("/img/okunoshima.jpg");
+  --bg-image-nara-park: url("/img/nara-park.jpg");
+  --bg-image-nakano-broadway: url("/img/nakano-broadway.jpg");
+  --bg-image-kawasaki-warehouse: url("/img/kawasaki-warehouse.jpg");
+  --bg-image-ghibli-museum: url("/img/ghibli-museum.jpg");
+  --bg-image-fox-village: url("/img/fox-village.jpg");
+  --bg-image-capsule-tower: url("/img/capsule-tower.jpg");
+  --bg-image-aokigahara-forest: url("/img/aokigahara-forest.jpg");
+  --bg-image-akihabara: url("/img/akihabara.jpg");
+  --bg-image-odaiba: url("/img/odaiba.jpg");
+  --bg-image-fushimi-inari-taisha: url("/img/fushimi-inari-taisha.jpg");
+}
