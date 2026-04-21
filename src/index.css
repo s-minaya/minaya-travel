@@ -10,6 +10,11 @@
 .CardTitle {
   @apply px-8 pt-8 pb-1 text-3xl font-semibold text-white;
 }
+
+.FAQItem {
+  @apply w-full cursor-pointer rounded-xl bg-secondary p-6 shadow-sm transition-all duration-300 hover:shadow-md;
+}
+
 @layer base {
   body {
     font-family: var(--font-nunito);
