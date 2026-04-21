@@ -25,11 +25,12 @@ const places = [
   },
   {
     id: 4,
-    name: "Capsule Tower",
-    japanese: "中銀カプセルタワービル",
-    description: "Icono de la arquitectura futurista",
-    image: "--bg-image-capsule-tower",
+    name: "Fushimi Inari Taisha",
+    japanese: "伏見稲荷大社",
+    description: "Templo famoso por sus miles de torii",
+    image: "--bg-image-fushimi-inari-taisha",
     dark: true,
+    longName: true,
   },
   {
     id: 5,
@@ -50,10 +51,10 @@ const places = [
   },
   {
     id: 7,
-    name: "Okunoshima",
-    japanese: "大久野島",
-    description: "La isla habitada por conejos salvajes",
-    image: "--bg-image-okunoshima",
+    name: "Robot Restaurant",
+    japanese: "ロボットレストラン",
+    description: "Espectáculo de robots y luces en Shinjuku",
+    image: "--bg-image-robot-restaurant-tokyo",
     dark: false,
   },
 ];

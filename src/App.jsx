@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TabBar from "./components/TabBar";
-import FeaturedDestinations from "./sections/FeaturedDestinations";
+import FeaturedStays from "./sections/FeaturedStays";
 import Home from "./sections/Home";
 import Recommended from "./sections/Recommended";
 
@@ -14,7 +14,7 @@ function App() {
       <section className="h-screen w-full">
         <Home />
         <Recommended />
-        <FeaturedDestinations />
+        <FeaturedStays />
       </section>
       <Footer />
     </>
