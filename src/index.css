@@ -3,6 +3,10 @@
 @plugin "@tailwindcss/typography";
 @plugin "@tailwindcss/aspect-ratio";
 
+.Card {
+  @apply h-64 w-48 flex-none overflow-hidden rounded-lg shadow-md;
+}
+
 @theme {
   /* Fuentes */
   --font-potta-one: "Potta One", sans-serif;
