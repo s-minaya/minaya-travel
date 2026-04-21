@@ -3,10 +3,10 @@ import places from "../data/places";
 function Recommended() {
   return (
     <div className="p-6" id="recommended">
-      <p className="font-nunito text-3xl font-semibold text-primary">
+      <p className=" text-3xl font-semibold text-primary">
         Recomendados
       </p>
-      <div className="mt-6 flex h-72 w-auto items-center space-x-6 overflow-x-auto overscroll-x-contain">
+      <div className="mt-6 flex h-72 w-auto items-center space-x-6 overflow-x-auto overflow-y-hidden overscroll-x-contain pb-4">
         {places.map((place) => (
           <div key={place.id} className="Card">
             <div
@@ -19,7 +19,7 @@ function Recommended() {
               }`}
             >
               <p
-                className={`overflow-hidden px-4 font-nunito font-bold whitespace-nowrap ${
+                className={`overflow-hidden px-4 font-bold whitespace-nowrap ${
                   place.longName ? "text-base" : "text-xl"
                 } ${place.dark ? "text-secondary" : "text-tertiary"}`}
               >
@@ -29,7 +29,7 @@ function Recommended() {
                 {place.japanese}
               </p>
               <p
-                className={`text-md px-4 font-nunito leading-tight ${
+                className={`text-md px-4 leading-tight ${
                   place.dark ? "text-secondary" : "text-tertiary"
                 }`}
               >

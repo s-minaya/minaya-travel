@@ -4,7 +4,12 @@
 @plugin "@tailwindcss/aspect-ratio";
 
 .Card {
-  @apply h-64 w-48 flex-none overflow-hidden rounded-lg shadow-md;
+  @apply mt-8 h-64 w-48 flex-none transform overflow-hidden rounded-lg shadow-md transition-all hover:-translate-y-4 hover:shadow-xl;
+}
+@layer base {
+  body {
+    font-family: var(--font-nunito);
+  }
 }
 
 @theme {
