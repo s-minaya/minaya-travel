@@ -10,7 +10,7 @@ function Home() {
             name=""
             id=""
           />
-          <button className="w-36 rounded-full bg-white p-4 font-potta-one text-xl font-semibold text-primary shadow-sm">
+          <button className="w-36 rounded-full bg-white p-4 font-nunito text-xl font-semibold text-primary shadow-sm">
             Explorar
           </button>
         </div>
