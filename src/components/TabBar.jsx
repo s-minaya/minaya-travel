@@ -42,7 +42,7 @@ function TabBar() {
       )}
 
       <div
-        className="fixed bottom-0 left-0 flex h-16 w-full items-center justify-center space-x-8 bg-secondary shadow-md"
+        className="fixed bottom-0 left-0 flex h-16 w-full items-center justify-center space-x-8 bg-secondary shadow-md lg:hidden"
         id="tab_bar"
       >
         <a href="#home">
