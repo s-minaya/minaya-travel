@@ -10,7 +10,7 @@ function FeaturedStays() {
         {stays.map((stay) => (
           <div
             key={stay.id}
-            className="relative h-96 w-full shrink-0 overflow-hidden rounded-xl bg-cover bg-center transition-transform duration-500 hover:scale-105 hover:shadow-2xl"
+            className="relative h-96 w-full shrink-0 overflow-hidden rounded-xl bg-cover bg-center transition-transform duration-500 hover:scale-105 hover:shadow-2xl cursor-pointer"
             style={{ backgroundImage: `var(${stay.image})` }}
           >
             <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />

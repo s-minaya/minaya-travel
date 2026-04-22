@@ -4,7 +4,7 @@ function Recommended() {
   return (
     <div className="p-6" id="recommended">
       <p className="text-3xl font-semibold text-primary">Recomendados</p>
-      <div className="mt-6 flex h-72 w-auto items-center space-x-6 overflow-x-auto overflow-y-hidden overscroll-x-contain pb-4">
+      <div className="mt-6 flex h-72 w-auto items-center space-x-6 overflow-x-auto overflow-y-hidden overscroll-x-contain pb-4 ">
         {places.map((place) => (
           <div key={place.id} className="Card">
             <div

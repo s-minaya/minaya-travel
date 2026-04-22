@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <TabBar />
 
       <section className="h-screen w-full">
         <Home />
@@ -19,6 +18,7 @@ function App() {
         <FAQSection />
         <Footer />
       </section>
+      <TabBar />
     </>
   );
 }
