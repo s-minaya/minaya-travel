@@ -17,8 +17,8 @@ function App() {
         <Recommended />
         <FeaturedStays />
         <FAQSection />
+        <Footer />
       </section>
-      <Footer />
     </>
   );
 }
