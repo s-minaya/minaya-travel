@@ -1,3 +1,5 @@
+import fushimiImg from "/img/fushimi-inari-taisha.jpg";
+
 function Home() {
   return (
     <div id="home" className="lg:mt-16 dark:bg-dark-bg">
@@ -20,7 +22,7 @@ function Home() {
         <div className="h-full w-full lg:bg-(image:--bg-image-fushimi-inari-taisha) lg:bg-cover lg:bg-center">
           <img
             className="lg:hidden"
-            src="/img/fushimi-inari-taisha.jpg"
+            src={fushimiImg}
             alt="Imagen de Fushimi Inari Taisha"
           />
         </div>
