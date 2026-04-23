@@ -49,7 +49,7 @@ function Recommended() {
 
       <div
         ref={scrollRef}
-        className="scroll-hidden mt-6 flex h-72 w-auto snap-x snap-mandatory items-center space-x-6 overflow-x-auto overflow-y-hidden overscroll-x-contain pb-4 lg:h-[336px]"
+        className="scroll-hidden mt-6 flex h-72 w-auto snap-x snap-mandatory items-center space-x-6 overflow-x-auto overflow-y-hidden overscroll-x-contain pb-4 lg:h-84"
         style={{ WebkitOverflowScrolling: "touch" }}
       >
         {places.map((place) => (

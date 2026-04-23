@@ -13,11 +13,13 @@ function TabBar({ toggleDark, isDark }) {
           onClick={() => setShowProfile(false)}
         >
           <div
-            className="w-full space-y-4 rounded-t-2xl bg-secondary p-8"
+            className="w-full space-y-4 rounded-t-2xl bg-secondary p-8 dark:bg-dark-card"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between">
-              <p className="text-2xl font-bold text-tertiary">Mi perfil</p>
+              <p className="text-2xl font-bold text-tertiary dark:text-secondary">
+                Mi perfil
+              </p>
               <button
                 onClick={() => setShowProfile(false)}
                 className="transition-transform duration-300 hover:rotate-90"
@@ -25,16 +27,18 @@ function TabBar({ toggleDark, isDark }) {
                 <Icon
                   id="close"
                   size={24}
-                  className="cursor-pointer text-tertiary hover:text-primary"
+                  className="cursor-pointer text-tertiary hover:text-primary dark:text-secondary/70"
                 />
               </button>
             </div>
-            <p className="text-tertiary/70">¡Bienvenido de vuelta!</p>
+            <p className="text-tertiary/70 dark:text-secondary/60">
+              ¡Bienvenido de vuelta!
+            </p>
             <p className="font-potta-one text-xl text-primary/70">おかえり</p>
             <button className="w-full cursor-pointer rounded-xl bg-primary p-4 font-semibold text-secondary">
               Mis reservas
             </button>
-            <button className="w-full cursor-pointer rounded-xl bg-tertiary/10 p-4 font-semibold text-tertiary">
+            <button className="w-full cursor-pointer rounded-xl bg-tertiary/10 p-4 font-semibold text-tertiary dark:bg-secondary/10 dark:text-secondary">
               Cerrar sesión
             </button>
           </div>
