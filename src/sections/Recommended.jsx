@@ -26,13 +26,13 @@ function Recommended() {
             onClick={() => scroll("left")}
             className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary text-tertiary shadow-sm transition-all duration-300 hover:bg-primary hover:text-secondary"
           >
-            <Icon id="chevron-left" size={24} type="stroke" />
+            <Icon className="cursor-pointer" id="chevron-left" size={24} type="stroke" />
           </button>
           <button
             onClick={() => scroll("right")}
             className="flex h-9 w-9 items-center justify-center rounded-full bg-secondary text-tertiary shadow-sm transition-all duration-300 hover:bg-primary hover:text-secondary"
           >
-            <Icon id="chevron-right" size={24} type="stroke" />
+            <Icon className="cursor-pointer" id="chevron-right" size={24} type="stroke" />
           </button>
         </div>
       </div>

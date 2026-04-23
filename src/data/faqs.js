@@ -29,6 +29,12 @@ const faqs = [
     answer:
       "Sí, ofrecemos descuentos especiales para estancias superiores a un mes. Contáctanos para más información.",
   },
+  {
+    id: 6,
+    question: "¿Qué incluye el alojamiento?",
+    answer:
+      "Todos nuestros alojamientos están completamente equipados con cocina, ropa de cama, toallas y conexión Wi-Fi. También encontrarás productos básicos para que tu llegada sea lo más cómoda posible.",
+  },
 ];
 
 export default faqs;

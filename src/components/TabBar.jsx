@@ -25,7 +25,7 @@ function TabBar() {
                 <Icon
                   id="close"
                   size={24}
-                  className="text-tertiary hover:text-primary cursor-pointer"
+                  className="cursor-pointer text-tertiary hover:text-primary"
                 />
               </button>
             </div>
@@ -42,23 +42,31 @@ function TabBar() {
       )}
 
       <div
-        className="fixed bottom-0 left-0 flex h-16 w-full items-center justify-center space-x-8 bg-secondary shadow-md lg:hidden"
+        className="fixed bottom-0 left-0 flex h-16 w-full items-center justify-around bg-secondary shadow-md lg:hidden"
         id="tab_bar"
       >
         <a href="#home">
-          <Icon id="home" size={50} className="fill-current text-tertiary" />
+          <Icon id="home" size={40} className="fill-current text-tertiary" />
         </a>
         <a href="#featured_destinations">
-          <Icon id="search" size={50} className="fill-current text-primary" />
+          <Icon id="search" size={40} className="fill-current text-primary" />
         </a>
         <a href="#recommended">
-          <Icon id="heart" size={50} className="fill-current text-tertiary" />
+          <Icon id="heart" size={40} className="fill-current text-tertiary" />
         </a>
         <button>
-          <Icon id="moon" size={50} className="fill-current text-tertiary cursor-pointer" />
+          <Icon
+            id="moon"
+            size={40}
+            className="cursor-pointer fill-current text-tertiary"
+          />
         </button>
         <button onClick={() => setShowProfile(true)}>
-          <Icon id="user" size={50} className="fill-current text-tertiary cursor-pointer" />
+          <Icon
+            id="user"
+            size={40}
+            className="cursor-pointer fill-current text-tertiary"
+          />
         </button>
       </div>
     </>
