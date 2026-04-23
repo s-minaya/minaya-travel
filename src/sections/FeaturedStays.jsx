@@ -3,7 +3,7 @@ import StayCard from "../components/StayCard";
 
 function FeaturedStays() {
   return (
-    <div className="w-full px-6" id="featured_destinations">
+    <div className="w-full px-6 dark:bg-dark-bg" id="featured_destinations">
       <p className="mt-6 pb-8 text-3xl font-semibold text-primary">
         Descubre alojamientos
       </p>

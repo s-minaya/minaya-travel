@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Icon from "./Icon";
 
-function TabBar() {
+function TabBar({ toggleDark, isDark }) {
   const [showProfile, setShowProfile] = useState(false);
 
   return (
@@ -54,11 +54,12 @@ function TabBar() {
         <a href="#recommended">
           <Icon id="heart" size={40} className="fill-current text-tertiary" />
         </a>
-        <button>
+        <button onClick={toggleDark}>
           <Icon
-            id="moon"
+            id={isDark ? "sun" : "moon"}
             size={40}
-            className="cursor-pointer fill-current text-tertiary"
+            type={isDark ? "stroke" : "fill"}
+            className="cursor-pointer text-tertiary transition-colors hover:text-primary"
           />
         </button>
         <button onClick={() => setShowProfile(true)}>

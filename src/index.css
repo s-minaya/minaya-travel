@@ -18,15 +18,17 @@
 }
 
 .FAQItem {
-  @apply w-full cursor-pointer rounded-xl bg-secondary p-6 shadow-sm transition-all duration-300 hover:shadow-md;
+  @apply w-full cursor-pointer rounded-xl bg-secondary p-6 shadow-sm transition-all duration-300 hover:shadow-md dark:bg-dark-card dark:hover:bg-dark-card-alt;
 }
 
 @layer base {
   body {
     font-family: var(--font-nunito);
     scroll-behavior: smooth;
+    @apply dark:bg-dark-bg;
   }
 }
+@variant dark (&:where(.dark, .dark *));
 
 @theme {
   /* Fuentes */
@@ -37,6 +39,11 @@
   --color-primary: #c1272d;
   --color-secondary: #f5f0e8;
   --color-tertiary: #1a1a2e;
+
+  /* Colores Dark Mode */
+  --color-dark-bg: #0f0f1a;
+  --color-dark-card: #1e1e35;
+  --color-dark-card-alt: #2a2a4d;
 
   /* Imágenes de fondo */
   --bg-image-yokai-matsuri: url("/img/yokai-matsuri.jpg");
